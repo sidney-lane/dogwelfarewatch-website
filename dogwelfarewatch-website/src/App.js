@@ -1,9 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import HomePage from './pages/HomePage';
-import ContactPage from './pages/ContactPage';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import './styles/globals.css';
 import './App.css';
 
 function App() {
@@ -13,8 +14,8 @@ function App() {
         <Header />
         <main>
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />
