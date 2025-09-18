@@ -5,11 +5,6 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <img
-          src="/dogwelfarewatch_logo_300.png"
-          alt="Dog Welfare Watch Logo"
-          className="hero-logo"
-        />
         <h1>Transparency & Accountability in Animal Welfare</h1>
         <p>
           Dog Welfare Watch advocates for humane standards and responsible
