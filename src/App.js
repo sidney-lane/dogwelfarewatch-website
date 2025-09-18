@@ -1,25 +1,24 @@
-import './App.css';  // make sure this exists in src/
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 
 import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
-import Mission from './components/Mission/Mission';
-import FocusAreas from './components/FocusAreas/FocusAreas';
-import Gallery from './components/Gallery/Gallery';
-import About from './components/About/About';
-import Blog from './components/Blog/Blog';
 import Footer from './components/Footer/Footer';
+
+// Pages
+import Home from './pages/Home';
+import Contact from './pages/Contact';
 
 export default function App() {
   return (
-    <div className="App">
+    <>
       <Header />
-      <Hero />
-      <Mission />
-      <FocusAreas />
-      <Gallery />
-      <About />
-      <Blog />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+
       <Footer />
-    </div>
+    </>
   );
 }

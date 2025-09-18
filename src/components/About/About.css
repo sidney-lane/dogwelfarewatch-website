@@ -6,46 +6,78 @@
   padding: 6rem 0;
 }
 
-.team-member {
-  background: var(--bg-tertiary);
-  padding: 3rem;
-  border-radius: 20px;
-  border: 2px solid var(--primary-color);
-  box-shadow: var(--shadow);
-  max-width: 600px;
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
+.team-member {
+  background: var(--bg-tertiary);
+  padding: 2rem 2rem 1rem;
+  border-radius: 16px;
+  border: 2px solid var(--primary-color);
+  box-shadow: var(--shadow);
+  width: 340px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .member-photo {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   background: var(--gradient-primary);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1rem;
   color: var(--text-primary);
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: 700;
 }
 
 .team-member h3 {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
   color: var(--text-primary);
 }
 
 .role {
   color: var(--primary-light);
   font-weight: 600;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.team-member p {
+.description {
   color: var(--text-secondary);
-  margin-bottom: 1.5rem;
-  line-height: 1.7;
-  text-align: center;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  overflow-y: auto;
+  max-height: 180px;
+  padding-right: 0.25rem;
+  scrollbar-width: thin;
+  margin-bottom: 1rem;
+}
+
+.description::-webkit-scrollbar {
+  width: 4px;
+}
+
+.description::-webkit-scrollbar-thumb {
+  background: var(--primary-light);
+  border-radius: 4px;
+}
+
+.contact {
+  font-size: 0.9rem;
+  margin-top: auto;
+  border-top: 1px solid var(--border-color);
+  padding-top: 0.75rem;
 }
