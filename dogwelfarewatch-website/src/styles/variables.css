@@ -1,0 +1,42 @@
+:root {
+  --primary-color: #1a5f5f;
+  --primary-light: #2d7a7a;
+  --primary-dark: #0f4444;
+  --secondary-color: #28a085;
+  --accent-color: #f39c12;
+  --text-primary: #ffffff;
+  --text-secondary: #d1d5db;
+  --text-muted: #9ca3af;
+  --bg-primary: #0a1a1a;
+  --bg-secondary: #1a2f2f;
+  --bg-tertiary: #2a4444;
+  --border-color: #3a5555;
+  --border-light: #4a6666;
+  --gradient-primary: linear-gradient(135deg, #1a5f5f 0%, #0f4444 50%, #28a085 100%);
+  --gradient-secondary: linear-gradient(135deg, #1a2f2f 0%, #2a4444 100%);
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Ensure variables apply to everything */
+*, *::before, *::after {
+  --primary-color: #1a5f5f;
+  --primary-light: #2d7a7a;
+  --primary-dark: #0f4444;
+  --secondary-color: #28a085;
+  --accent-color: #f39c12;
+  --text-primary: #ffffff;
+  --text-secondary: #d1d5db;
+  --text-muted: #9ca3af;
+  --bg-primary: #0a1a1a;
+  --bg-secondary: #1a2f2f;
+  --bg-tertiary: #2a4444;
+  --border-color: #3a5555;
+  --border-light: #4a6666;
+  --gradient-primary: linear-gradient(135deg, #1a5f5f 0%, #0f4444 50%, #28a085 100%);
+  --gradient-secondary: linear-gradient(135deg, #1a2f2f 0%, #2a4444 100%);
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
