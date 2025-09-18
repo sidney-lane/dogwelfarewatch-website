@@ -17,10 +17,14 @@ const Header = () => {
     <header className="header">
       <nav className="nav">
         <Link to="/" className="logo">
-          <div className="logo-icon">🐕</div>
+          <img
+            src="/dogwelfarewatch_logo_256.png"
+            alt="Dog Welfare Watch Logo"
+            className="logo-image"
+          />
           <span>Dog Welfare Watch</span>
         </Link>
-        
+
         <ul className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>
           <li><Link to="/" className="nav-link">Home</Link></li>
           <li><button onClick={() => scrollToSection('mission')} className="nav-link">Mission</button></li>
@@ -30,8 +34,8 @@ const Header = () => {
           <li><button onClick={() => scrollToSection('about')} className="nav-link">About</button></li>
           <li><Link to="/contact" className="nav-link">Contact</Link></li>
         </ul>
-        
-        <div 
+
+        <div
           className="menu-toggle"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >

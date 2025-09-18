@@ -1,4 +1,4 @@
-export const focusAreas = [
+const focusAreas = [
   {
     icon: "🏛️",
     title: "Council Accountability",
@@ -36,3 +36,5 @@ export const focusAreas = [
     points: ["Professional networks", "Rescue group partnerships", "Expert consultations", "Coalition building"]
   }
 ];
+
+export default focusAreas;

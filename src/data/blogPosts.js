@@ -1,4 +1,4 @@
-export const blogPosts = [
+const blogPosts = [
   {
     id: 1,
     title: "New Transparency Requirements for Municipal Shelters",
@@ -54,3 +54,5 @@ export const blogPosts = [
     slug: "building-partnerships-rescue-groups"
   }
 ];
+
+export default blogPosts;

@@ -1,4 +1,4 @@
-export const galleryItems = [
+const galleryItems = [
   {
     id: 1,
     title: "Shelter Dogs",
@@ -36,3 +36,5 @@ export const galleryItems = [
     image: "https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?w=400&h=300&fit=crop"
   }
 ];
+
+export default galleryItems;
