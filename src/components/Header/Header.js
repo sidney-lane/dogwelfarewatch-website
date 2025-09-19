@@ -52,7 +52,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav">
         <NavLink to="/" className="logo" onClick={closeMenu}>
-          <img src="/dogwelfarewatch_logo_256.png" alt="Logo" className="logo-image" />
+          <img src="/logo256.png" alt="Logo" className="logo-image" />
           <span>Dog Welfare Watch</span>
         </NavLink>
 

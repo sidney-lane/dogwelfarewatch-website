@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <img
-        src="/dogwelfarewatch_logo_256.png"
+        src="/logo256.png"
         alt="Dog Welfare Watch Logo"
         className="footer-logo"
       />
